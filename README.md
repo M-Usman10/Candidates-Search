@@ -5,8 +5,6 @@ NLP API for documents indexing and semantic searching. Most endpoints are associ
 
 * `/insert`: Insert the data in the Weaviate Search.
 * `/search`: Search the query from the database.
-* `/get-text-from-id`: It get the candidate against its id.
-
 
 There are also endpoints which are not exposed to the user, but are needed internally:
 
@@ -27,6 +25,10 @@ The directory structure of documents-discovery is as follows:
 │   ├── routers             <- Source code for each endpoint
 └── requirements.txt        <- The requirements file for reproducing the production environment
 ```
+
+##Examples
+
+Json for /search will be key value pairs of properties and their values, such as: {"about":"business"} 
 
 > Note: Application code is grouped such that files related to the same topic are localized, and not such that code that is functionally similar is localized.
 
