@@ -1,0 +1,5 @@
+sentence_transformers==2.2.2
+pydantic==1.8.2
+weaviate_client==2.5.0
+fastapi==0.88.0
+ndjson==0.3.1
